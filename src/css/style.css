@@ -1,106 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: black;
+    font: inherit;
+    background-color: transparent;
+}
+
 body {
-    background: linear-gradient(#bbb, transparent 1px),
-    linear-gradient(90deg, #bbb, transparent 1px);
-    background-size: 15px 15px;
-    background-position: center center;
-}
-
-p {
-    text-align: center;
-}
-
-#widget {
-    position: relative;
-}
-
-.widget-container {
-    background-color: #eeebeb;
-    width: 600px;
-    height: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px solid #d5d4d4;
-    border-radius: 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    position: relative;
-}
-
-.footer {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    bottom: 10px;
-    border: gray;
-}
-
-.form {
-    width: 90%;
-}
-
-input {
-    width: 90%;
-    height: 30px;
-}
-
-.list {
-    overflow: auto;
-    height: 90%;
-}
-
-.list {
-    overflow: auto;
-    height: 90%;
-}
-
-.ticket {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    padding: 10px;
-    width: 90%;
-    border: 1px solid gray;
-    border-radius: 5px;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.elem {
-    width: 67%;
-    font-weight: bold;
-}
-
-.date {
-    width: 28%;
-}
-
-.geo {
-    width: 100%;
-    margin-top: 15px;
-}
-
-.modal {
-    position: absolute;
-    top: 50px;
-    left: 120px;
-    width: 400px;
-    height: 250px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 15px;
-    box-sizing: border-box;
     background-color: white;
 }
 
-.buttons {
-    display: flex;
-    justify-content:end;
+#container1 {
+    width: 500px;
+    margin: 10px auto;
 }
 
-button {
-    border: 1px solid gray;
+.collapse-widget {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    border: 3px solid #f8f8f8;
+}
+
+.collapse-widget .button {
+    margin-bottom: 1em;
+    padding: 0.8em 1em;
+    letter-spacing: inherit;
+    color: white;
+    background-color: #017bff;
+
+    border: none;
     border-radius: 5px;
-    margin: 10px;
-    height: 30px;
+    outline: 0 solid #93C7FE;
+}
+
+.collapse-widget .button:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+
+.collapse-widget .button:active {
+    outline: 3px solid #93C7FE;
+}
+
+.collapse-widget .collapse {
+    height: 0;
+    transition: height 250ms linear;
+    overflow: hidden;
+}
+
+.collapse-widget .content {
+    padding: 1em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
