@@ -29,9 +29,14 @@
     "class-methods-use-this": [
       "off"
     ],
+    "no-alert": [
+      "off"
+    ],
     "no-plusplus": [
       "off"
     ],
+  "no-console": "off",
+  "no-unused-vars": "off",
     "no-tabs": "off",
     "indent": ["error", 2]
   }

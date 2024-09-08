@@ -1,5 +1,5 @@
 {
-  "name": "ahj-9-anim",
+  "name": "ahj-9-media_text",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/melnikonayana/ahj-9-anim.git"
+    "url": "git+ssh://git@github.com/melnikonayana/ahj-9-media_text.git"
   },
   "author": "yana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/melnikonayana/ahj-9-anim/issues"
+    "url": "https://github.com/melnikonayana/ahj-9-media_text/issues"
   },
-  "homepage": "https://github.com/melnikonayana/ahj-9-anim#readme",
+  "homepage": "https://github.com/melnikonayana/ahj-9-media_text#readme",
   "devDependencies": {
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.23.9",
